@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+	color: #FF9A00;	
+}
+
+h2 {
+	color: #FF9A00;
+}
+
+a{
+	color: #FF9A00;
+}
+
+a:hover{
+	color: #955900;
+}
+
+
+/************ HEADER **************/
+
+
+.title{
+	color: #FF9A00;
+}
+
+/********** NAVIGATION ************/
+
+
+/********* CONTENT BOXES **********/
+
+.bar{
+	background-image: url(../../images/orange/bar.jpg);
+	width: 668px;
+	height: 8px;
+	display: block;
+}
+
+/************ FOOTER **************/

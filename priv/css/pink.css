@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+	color: #F36;	
+}
+
+h2 {
+	color: #F36;
+}
+
+a{
+	color: #F36;
+}
+
+a:hover{
+	color: #C03;
+}
+
+
+/************ HEADER **************/
+
+
+.title{
+	color: #F36;
+}
+
+/********** NAVIGATION ************/
+
+
+/********* CONTENT BOXES **********/
+
+.bar{
+	background-image: url(../../images/pink/bar.jpg);
+	width: 668px;
+	height: 8px;
+	display: block;
+}
+
+/************ FOOTER **************/

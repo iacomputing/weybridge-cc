@@ -1,0 +1,292 @@
+<?php
+if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) { 
+ob_start("ob_gzhandler"); 
+} else { 
+ob_start(); 
+}
+header("Content-type: text/css; charset: UTF-8");
+?>
+
+body {
+	background-image: url(../../images/bg.jpg);
+	background-repeat: repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:13px;
+	margin: 0px;
+}
+
+h1 {
+	font-size:20px;
+	line-height: 20px;
+	font-style:italic;
+	margin: 2px;
+	font-weight:normal;
+}
+
+h2 {
+	font-size:15px;
+	line-height: 16px;		
+	font-style:italic;
+	font-weight:normal;
+}
+.frame{
+	
+	width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+
+a{
+	text-decoration:none;	
+	border: 0px;
+}
+
+a:hover{
+	text-decoration:underline;	
+}
+
+img{
+	border:none;	
+}
+
+/************ HEADER **************/
+
+.header{
+	width:100%;
+	height: 300px;
+	background-image: url(../../images/polaroids.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;	
+}
+
+.header a{
+	text-decoration:none;
+	border:none;
+	outline:none;
+	
+}
+
+.logo{
+	float:left;
+
+	
+}
+
+.title{
+	clear:both;
+	float:left;
+	padding-left: 225px;
+	margin-top: 35px;
+}
+
+.title h1{
+	text-align: left;	
+}
+
+/********** NAVIGATION ************/
+.nav{
+	clear: both;
+	float:left;
+	width: 204px;
+}
+
+.button{
+	width: 180px;
+	height: 41px;
+	margin-left: 12px;
+	margin-right: 12px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display:block;
+	text-align:center;
+	cursor:pointer;
+}
+
+.button a{
+	width: 100%;
+	height: 100%;
+	display:block;
+}
+
+#purple{
+	background-image:url(../../images/home.jpg);	
+	background-repeat: no-repeat;
+	background-position: left top;	
+}
+
+#purple:hover{
+	background-image:url(../../images/homehover.jpg);	
+}
+
+#blue{
+	background-image:url(../../images/theteam.jpg);	
+	background-repeat: no-repeat;
+	background-position: left top;	
+}
+
+#blue:hover{
+	background-image:url(../../images/theteamhover.jpg);	
+}
+
+#green{
+	background-image:url(../../images/ourservices.jpg);	
+	background-repeat: no-repeat;
+	background-position: left top;	
+}
+
+#green:hover{
+	background-image:url(../../images/ourserviceshover.jpg);	
+}
+
+
+#orange{
+	background-image:url(../../images/activities.jpg);	
+	background-repeat: no-repeat;
+	background-position: left top;	
+}
+
+#orange:hover{
+	background-image:url(../../images/activitieshover.jpg);	
+}
+
+#red{
+	background-image:url(../../images/contactus.jpg);	
+	background-repeat: no-repeat;
+	background-position: left top;	
+}
+
+#red:hover{
+	background-image:url(../../images/contactushover.jpg);	
+}
+
+#pink{
+	background-image:url(../../images/friends.jpg);	
+	background-repeat: no-repeat;
+	background-position: left top;	
+}
+
+#pink:hover{
+	background-image:url(../../images/friendshover.jpg);	
+}
+
+#darkpink{
+	background-image:url(../../images/links.jpg);	
+	background-repeat: no-repeat;
+	background-position: left top;	
+}
+
+#darkpink:hover{
+	background-image:url(../../images/linkshover.jpg);	
+}
+
+
+
+.nav ul{
+	margin:0px;	
+	padding-left:30px;
+}
+.nav li{
+	font-size:12px;
+	line-height: 14px;
+	text-decoration:none;
+	list-style-type: none;	
+	font-weight:bold;
+	font-style:italic;
+}
+
+/********* CONTENT BOXES **********/
+.contentframe{
+	width:738px;
+	float: left;
+	margin-left: 4px;
+
+}
+.box{
+	width: 738px;
+	float: left;
+	margin-bottom: 10px;
+
+}
+
+.top{
+	height: 40px;
+	width: 738px;
+	clear:both;
+	float:left;
+	display: block;
+	background-image: url(../../images/top.min.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+}
+
+.content{
+	float:left;
+	background-image: url(../../images/content.min.png);
+	background-repeat: repeat-y;
+	background-position: center top;	
+	padding-left: 14px;
+	padding-right: 55px;
+	display: block;
+	padding-bottom: 0px;
+	display:block;
+	width: 668px;
+	
+}
+
+.content p{
+	margin-bottom: 5px;	
+}
+
+.bar{
+	width: 668px;
+	height: 8px;
+	display: block;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.textright{
+	float:right;	
+	width: 80%;
+}
+.textleft{
+	float:left;
+	
+}
+
+.quote{
+	text-align:center;	
+}
+
+.bottom{
+	height: 37px;
+	width: 738px;
+	clear:both;
+	float:left;
+	display: block;
+	background-image: url(../../images/bottom.min.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: -2px;
+	margin-left: 0px;
+}
+
+
+/************ FOOTER **************/
+.footer{
+	width:734px;
+	height: 145px;
+	display: block;
+	margin-right: 55px;
+	float:right;
+	text-align: center;
+	vertical-align: bottom;
+	padding-bottom: 15px;
+	font-size: 11px;
+}

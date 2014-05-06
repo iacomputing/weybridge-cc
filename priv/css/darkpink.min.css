@@ -1,0 +1,47 @@
+<?php
+if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) { 
+ob_start("ob_gzhandler"); 
+} else { 
+ob_start(); 
+}
+header("Content-type: text/css; charset: UTF-8");
+?>
+/* CSS Document */
+
+h1 {
+	color: #8E0438;	
+}
+
+h2 {
+	color: #8E0438;
+}
+
+a{
+	color: #8E0438;
+}
+
+a:hover{
+	color: #48021D;
+}
+
+
+/************ HEADER **************/
+
+
+.title{
+	color: #8E0438;
+}
+
+/********** NAVIGATION ************/
+
+
+/********* CONTENT BOXES **********/
+
+.bar{
+	background-image: url(../../images/darkpink/bar.jpg);
+	width: 668px;
+	height: 8px;
+	display: block;
+}
+
+/************ FOOTER **************/

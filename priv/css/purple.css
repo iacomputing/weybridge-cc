@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+	color: #6600CC;	
+}
+
+h2 {
+	color: #6600CC;
+}
+
+a{
+	color: #6600CC;
+}
+
+a:hover{
+	color: #400080;
+}
+
+
+/************ HEADER **************/
+
+
+.title{
+	color: #6600CC;
+}
+
+/********** NAVIGATION ************/
+
+
+/********* CONTENT BOXES **********/
+
+.bar{
+	background-image: url(../../images/purple/bar.jpg);
+	width: 668px;
+	height: 8px;
+	display: block;
+}
+
+/************ FOOTER **************/

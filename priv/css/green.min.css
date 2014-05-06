@@ -1,0 +1,15 @@
+<?php
+if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) { 
+ob_start("ob_gzhandler"); 
+} else { 
+ob_start(); 
+}
+header("Content-type: text/css; charset: UTF-8");
+?>h1{color:#9AC810;}
+h2{color:#9AC810;}
+a{color:#7CA20D;}
+a:hover{color:#3C4D06;}
+.title{color:#9AC810;}
+.bar{background-image:url(/images/green/bar.jpg);}
+.gallery ul img {border: 5px solid #9AC810;border-width:5px;}
+.gallery ul a:hover img {border:5px solid #AED340;border-width:5px;color: #fff;}

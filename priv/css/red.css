@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+	color: #E83C00;	
+}
+
+h2 {
+	color: #E83C00;
+}
+
+a{
+	color: #E83C00;
+}
+
+a:hover{
+	color: #802000;
+}
+
+
+/************ HEADER **************/
+
+
+.title{
+	color: #E83C00;
+}
+
+/********** NAVIGATION ************/
+
+
+/********* CONTENT BOXES **********/
+
+.bar{
+	background-image: url(../../images/red/bar.jpg);
+	width: 668px;
+	height: 8px;
+	display: block;
+}
+
+/************ FOOTER **************/

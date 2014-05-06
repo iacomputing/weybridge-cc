@@ -1,0 +1,49 @@
+#############################################################
+# Block users by IP address:                                #
+#############################################################
+#-#
+Order allow,deny
+Allow from all
+#-#
+
+#############################################################
+# Custom Error Documents:                                   #
+#############################################################
+#ErrorDocument 404 /sites/website/public_html/error/error.php?e=404
+
+#############################################################
+# Prevent Directory Listing:                                #
+#############################################################
+Options +Indexes
+
+#############################################################
+# Force Download of certain file types:                     #
+#############################################################
+#AddType application/octet-stream .avi 
+#AddType application/octet-stream .mpg
+#AddType application/octet-stream .mov
+#AddType application/octet-stream .pdf
+
+#############################################################
+# Set the default directory index:                          #
+#############################################################
+DirectoryIndex index.php
+
+# Or, compress certain file types by extension:
+<Files *.php>
+SetOutputFilter DEFLATE
+</Files>
+
+<FilesMatch "\.(jpg|jpeg|png|gif|css|js)$">
+#Header set Cache-Control "max-age=604800, public"
+Header set Expires "Thu, 15 Apr 2011 20:00:00 GMT"
+</FilesMatch>
+
+<FilesMatch "\.(swf)$">
+#Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
+
+DirectoryIndex index.php
+
+AddType application/x-httpd-php .css
+AddType application/x-httpd-php .js
