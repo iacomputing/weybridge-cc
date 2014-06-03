@@ -22,11 +22,10 @@ $style->title("Activities");
     <p>We aim to make our sessions accessible by all, because of this the activities on this programme are free of charge, except &quot;The Parenting Puzzle&quot; and &quot;Infant First Aid&quot;.</p>
     <h2 style="text-align:center;">Please Note</h2>
     <p style="text-align:center;">Due to Bank Holidays the centre will be closed<br />
-    Monday May 5th, May 26th, &amp; 25th Aug.
+    Monday 25th Aug.
     </p>
     <p style="text-align:center;">Due to a First Aid course having been booked, the centre will be closed<br />
       to general play and Sensory room on the following dates:<br />
-      <strong>Saturday 10th May </strong><br />
       <strong>Saturday 12th July </strong><br />
       <strong>Saturday 13th September </strong><br />
       <strong>Saturday 8th November </strong><br />
