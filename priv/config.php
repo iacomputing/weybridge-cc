@@ -84,9 +84,9 @@ $CFG->donotreply = "donotreply@weybridgecc.org";
 
 //include paths
 set_include_path($CFG->dirroot.'/priv/'. PATH_SEPARATOR .
-				$CFG->dirroot.'/priv/includes/'. PATH_SEPARATOR .
-				$CFG->dirroot.'/priv/includes/classes/style/' . PATH_SEPARATOR .
-				$CFG->dirroot.'/priv/includes/classes/captcha/'); // Include Paths
+				$CFG->dirroot.'/priv/inc/'. PATH_SEPARATOR .
+				$CFG->dirroot.'/priv/inc/classes/style/' . PATH_SEPARATOR .
+				$CFG->dirroot.'/priv/inc/classes/captcha/'); // Include Paths
 
 //default includes - whichever you need
 //include "mysql.class.php";
